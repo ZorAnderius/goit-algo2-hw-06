@@ -2,7 +2,6 @@ import string
 from collections import defaultdict
 from concurrent.futures.thread import ThreadPoolExecutor
 
-
 def remove_punctuation(text: str):
     return text.translate(str.maketrans('', '', string.punctuation))
 
